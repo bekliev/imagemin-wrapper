@@ -12,7 +12,7 @@ const imageminWebp = require('imagemin-webp');
     console.log('Images optimized (mozJPEG)');
     console.log('Result:', mozjpegRes.map(image => image.path))
     
-    const webpRes = await imagemin(['images/mozjpeg/*.{jpg,png}'], 'images/webp', {
+    const webpRes = await imagemin(['images/mozjpeg/*.jpg'], 'images/webp', {
         use: [
             imageminWebp({quality: 70, method: 6})
         ]
