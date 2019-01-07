@@ -1,0 +1,17 @@
+{
+  "name": "images-to-webp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "png.js",
+  "scripts": {
+    "start": "node optimize.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "imagemin": "^6.1.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-webp": "^5.0.0"
+  }
+}
